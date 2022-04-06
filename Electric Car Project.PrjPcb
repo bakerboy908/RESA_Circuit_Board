@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=4
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -64,7 +64,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -72,7 +72,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WNUFEJIX
 
 [Document3]
 DocumentPath=HB_Driver.PcbLib
@@ -89,7 +89,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RVAITQKW
 
 [Document4]
 DocumentPath=HB_Driver.SchLib
@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AFAHQIBS
 
 [Document5]
 DocumentPath=MCU.SchDoc
@@ -115,7 +115,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -123,7 +123,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SWIZXARN
 
 [Document6]
 DocumentPath=Summer_Studio.PcbLib
@@ -158,6 +158,74 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document8]
+DocumentPath=Telemetry_MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HSMHPYGV
+
+[Document9]
+DocumentPath=Top_Level.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BUPRJLJS
+
+[Document10]
+DocumentPath=Buck_Converter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RNMHKRVF
+
+[Document11]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MNAOBYLF
 
 [Configuration1]
 Name=Sources
@@ -912,7 +980,7 @@ Type67=1
 Type68=1
 
 [Electrical Rules Check]
-Type1=1
+Type1=0
 Type2=1
 Type3=2
 Type4=1
@@ -921,11 +989,11 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1023,7 +1091,7 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
-Type112=1
+Type112=0
 Type113=1
 Type114=2
 Type115=2
@@ -1039,23 +1107,23 @@ Type124=1
 Type125=1
 
 [ERC Connection Matrix]
-L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
+L1=NNNNNNNNNENNNNNNN
+L2=NNNNNNNNNNNNNNNNN
+L3=NNEENEEEENENNEENN
+L4=NNENNNWEENNNNENNN
 L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
-L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
-L16=WWWWNWWNWWWNWWWNW
-L17=WNNNNNNNWNNNWWWWN
+L6=NNENNNNEENNWNENNN
+L7=NNEWNNWEENNWNENNN
+L8=NNEENEENEEENNEENN
+L9=NNEENEEEENENNEENW
+L10=ENNNNNNENNENNNENN
+L11=NNENNNNEEENNNENNN
+L12=NNNNNWWNNNNNWWWNN
+L13=NNNNNNNNNNNWNNNNW
+L14=NNEENEEEENEWNEENW
+L15=NNENNNNEEENWNENNW
+L16=NNNNNNNNNNNNNNNNW
+L17=NNNNNNNNWNNNWWWWN
 
 [Annotate]
 SortOrder=3
