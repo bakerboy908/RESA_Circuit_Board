@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=STNIYZDO
+DocumentUniqueId=IWGBVQBE
 
 [Document5]
 DocumentPath=MCU.SchDoc
@@ -140,7 +140,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WTYHIFMU
 
 [Document7]
 DocumentPath=Summer_Studio.SchLib
@@ -226,6 +226,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MNAOBYLF
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Electric Car Project\Design Rule Check - PCB1.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
