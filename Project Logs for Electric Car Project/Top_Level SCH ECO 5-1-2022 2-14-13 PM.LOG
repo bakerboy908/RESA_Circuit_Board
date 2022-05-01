@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=U1 Old Footprint=IR2302S New Footprint=TPS2836D
+Change Component Footprint: Designator=U2 Old Footprint=IR2302S New Footprint=TPS2836D
+Change Component Footprint: Designator=U3 Old Footprint=IR2302S New Footprint=TPS2836D
+Change Component Footprint: Designator=U4 Old Footprint=IR2302S New Footprint=TPS2836D
+Change Component Comment: Designator=U1 Old Comment=HG New Comment=TPS2836D
+Change Component Comment: Designator=U2 Old Comment=HG New Comment=TPS2836D
+Change Component Comment: Designator=U3 Old Comment=HG New Comment=TPS2836D
+Change Component Comment: Designator=U4 Old Comment=HG New Comment=TPS2836D
+Change Pin Designator/Name:  Old Designator=U1-1 Old Name=VCC New Designator =COM New Name=4
+Change Pin Designator/Name:  Old Designator=U1-2 Old Name=IN New Designator =VCC New Name=1
+Change Pin Designator/Name:  Old Designator=U1-3 Old Name=S\D\ New Designator =IN New Name=2
+Change Pin Designator/Name:  Old Designator=U2-1 Old Name=VCC New Designator =COM New Name=4
+Change Pin Designator/Name:  Old Designator=U2-2 Old Name=IN New Designator =VCC New Name=1
+Change Pin Designator/Name:  Old Designator=U2-3 Old Name=S\D\ New Designator =IN New Name=2
+Change Pin Designator/Name:  Old Designator=U3-1 Old Name=VCC New Designator =COM New Name=4
+Change Pin Designator/Name:  Old Designator=U3-2 Old Name=IN New Designator =VCC New Name=1
+Change Pin Designator/Name:  Old Designator=U3-3 Old Name=S\D\ New Designator =IN New Name=2
+Change Pin Designator/Name:  Old Designator=U4-1 Old Name=VCC New Designator =COM New Name=4
+Change Pin Designator/Name:  Old Designator=U4-2 Old Name=IN New Designator =VCC New Name=1
+Change Pin Designator/Name:  Old Designator=U4-3 Old Name=S\D\ New Designator =IN New Name=2
